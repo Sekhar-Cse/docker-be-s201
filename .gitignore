@@ -1,0 +1,33 @@
+# Maven target directory
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Maven build info
+.mvn/timing.properties
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.classpath
+*.project
+*.settings/
+bin/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+application-*.yml
+application-*.properties
+
+# Docker
+*.pid
